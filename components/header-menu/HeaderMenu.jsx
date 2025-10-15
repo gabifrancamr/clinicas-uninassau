@@ -38,7 +38,7 @@ export function HeaderMenu() {
         as="nav"
         display={{ base: "none", md: "flex" }}
         color="blue.800"
-        fontWeight="medium"
+        fontWeight="bold"
         gap={30}
       >
         <Text
