@@ -12,7 +12,7 @@ export function Footer() {
             <Flex justifyContent={"center"}>
                 <SimpleGrid display={{ base: "grid", md: "none" }} columns={2} gap="6">
                     <Flex gap={2} alignItems={"center"}>
-                        <RiInstagramFill color="pink" />
+                        <RiInstagramFill />
                         <Text cursor="pointer" _hover={{ color: "blue.900", transform: "scale(1.05)" }} transition="all 0.2s" asChild>
                             <Link href="https://www.instagram.com/uninassau.teresina/">
                                 @uninassauteresina
@@ -47,7 +47,7 @@ export function Footer() {
 
                 <Flex display={{ base: "none", md: "flex" }} gap="6">
                     <Flex gap={2} alignItems={"center"}>
-                        <RiInstagramFill color="pink" />
+                        <RiInstagramFill />
                         <Text cursor="pointer" _hover={{ color: "blue.900", transform: "scale(1.05)" }} transition="all 0.2s" asChild>
                             <Link href="https://www.instagram.com/uninassau.teresina/">
                                 @uninassauteresina
