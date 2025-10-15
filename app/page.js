@@ -7,7 +7,7 @@ import { Footer } from "../components/footer/footer";
 
 export default function Home() {
   return (
-    <Box className="container" bgColor={"blue.100"} color="white" overflowX="hidden">
+    <Box className="container" bgColor={"blue.100"} color="white" overflow="hidden">
       <Header />
       <Hero />
       <Specialties />
