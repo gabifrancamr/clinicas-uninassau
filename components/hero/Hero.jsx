@@ -79,6 +79,7 @@ export function Hero() {
             size={{ base: "lg", lg: "lg" }}
             alignSelf={{ base: "center", lg: "flex-start" }}
             className="shadow"
+            color="white"
           >
             <Link href="#specialties">
               Agendar atendimento

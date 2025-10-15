@@ -11,7 +11,7 @@ export function SpecialtiesCard({ image, alt, title, description, page }) {
     }
 
     return (
-        <Card.Root className="shadow" overflow="hidden" alignItems={"center"} flex="1" display="flex" flexDirection="column" justifyContent="space-between">
+        <Card.Root className="shadow" overflow="hidden" alignItems={"center"} flex="1" display="flex" flexDirection="column" justifyContent="space-between" bgColor={"white"}>
             <Image
                 src={image}
                 alt={alt}
@@ -28,7 +28,7 @@ export function SpecialtiesCard({ image, alt, title, description, page }) {
 
             </Card.Body>
             <Card.Footer gap="2">
-                <Button onClick={() => goToPage(page)} variant="solid" bgColor={"blue.800"}>Ver mais</Button>
+                <Button onClick={() => goToPage(page)} variant="solid" bgColor={"blue.800"} color="white">Ver mais</Button>
             </Card.Footer>
 
         </Card.Root>
