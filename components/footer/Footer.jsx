@@ -14,7 +14,6 @@ export function Footer() {
       borderTop="1px solid black"
       py="1rem"
       className="text"
-      fontWeight="bold"
       initial={{ opacity: 0, y: 20 }}           // movimento menor
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
@@ -31,7 +30,7 @@ export function Footer() {
         transition={{ duration: 0.6, delay: 0.1 }}
       >
         {/* MOBILE */}
-        <SimpleGrid display={{ base: "grid", md: "none" }} columns={2} gap="6">
+        <SimpleGrid display={{ base: "grid", md: "none" }} columns={2} fontSize="sm" fontWeight="bold">
           <Flex gap={2} alignItems="center">
             <RiInstagramFill />
             <Text
@@ -99,7 +98,7 @@ export function Footer() {
         </SimpleGrid>
 
         {/* DESKTOP */}
-        <Flex display={{ base: "none", md: "flex" }} gap="6">
+        <Flex display={{ base: "none", md: "flex" }} gap="6" fontWeight="bold">
           <Flex gap={2} alignItems="center">
             <RiInstagramFill />
             <Text

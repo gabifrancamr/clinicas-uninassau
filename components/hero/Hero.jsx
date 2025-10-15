@@ -2,6 +2,7 @@
 
 import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { ReactTyped } from "react-typed";
 
 // Componentes animados
@@ -79,7 +80,9 @@ export function Hero() {
             alignSelf={{ base: "center", lg: "flex-start" }}
             className="shadow"
           >
-            Agendar atendimento
+            <Link href="#specialties">
+              Agendar atendimento
+            </Link>
           </Button>
         </MotionFlex>
       </Flex>

@@ -35,22 +35,23 @@ export function Specialties() {
       </MotionText>
 
       {/* Cards animados */}
-      <Flex flexDirection={{ base: "column", sm: "row" }} gap={2}>
+      <Flex flexDirection={{ base: "column", sm: "row" }} gap={2} alignItems="stretch" justifyContent="center" w="100%">
         {[
-          { image: "/psic.jpg", title: "Odontologia" },
-          { image: "/dent.jpg", title: "Psicologia" },
-          { image: "/vet.jpg", title: "Veterinária" },
+          { image: "/psic.jpg", title: "🧠 Psicologia", description: "Escuta acolhedora e apoio emocional para todas as fases da vida" },
+          { image: "/dent.jpg", title: "🦷 Odontologia", description: "Saúde bucal com atenção, conforto e tecnologia" },
+          { image: "/vet.jpg", title: "🐾 Veterinária", description: "Cuidamos dos seus pets com carinho e responsabilidade" },
         ].map((item, i) => (
           <motion.div
             key={item.title}
+            style={{ flex: 1, display: "flex" }}
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: i * 0.2 }} // delay crescente para efeito em sequência
-    
           >
             <SpecialtiesCard
               image={item.image}
               alt={`card de ${item.title.toLowerCase()}`}
+              description={item.description}
               page={item.title.toLowerCase()}
               title={item.title}
             />
