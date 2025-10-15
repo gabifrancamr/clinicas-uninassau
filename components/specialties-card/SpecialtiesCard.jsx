@@ -21,7 +21,7 @@ export function SpecialtiesCard({ image, alt, title, description, page }) {
                 borderRadius="md"
             />
             <Card.Body textAlign={"center"} gap="2">
-                <Card.Title>{title}</Card.Title>
+                <Card.Title color={"black"}>{title}</Card.Title>
                 <Card.Description>
                     {description}
                 </Card.Description>

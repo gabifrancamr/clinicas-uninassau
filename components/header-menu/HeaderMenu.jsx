@@ -11,7 +11,7 @@ export function HeaderMenu() {
       <Box display={{ base: "block", md: "none" }}>
         <Menu.Root>
           <Menu.Trigger asChild>
-            <Button bgColor={"blue.800"} variant="solid" size="sm">
+            <Button bgColor={"blue.800"} color={"white"} variant="solid" size="sm">
               <IoMenu />
             </Button>
           </Menu.Trigger>
