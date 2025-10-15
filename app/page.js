@@ -3,7 +3,7 @@ import { Header } from "../components/header/Header";
 import { Hero } from "../components/hero/Hero";
 import { Specialties } from "../components/specialties/Specialties";
 import { Map } from "../components/map/Map";
-import { Footer } from "../components/footer/footer";
+import { Footer } from "../components/footer/Footer";
 
 export default function Home() {
   return (
