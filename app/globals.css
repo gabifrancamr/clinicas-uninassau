@@ -4,13 +4,20 @@
   box-sizing: border-box;
 }
 
-
 .bg-color {
-  background-color: #1a3478;
+  background-color: #dbeafe;
+}
+
+.title {
+  color: #1a3478;
+}
+
+.text {
+  color: #0c142e;
 }
 
 .shadow {
   box-shadow: 1px 21px 43px -4px rgba(0, 0, 0, 0.93);
-  -webkit-box-shadow: 1px 21px 43px -4px rgba(0, 0, 0, 0.93);
+  -webkit-box-shadow: 1px 21px 43px -4px rgb(19 37 83);
   -moz-box-shadow: 1px 21px 43px -4px rgba(0, 0, 0, 0.93);
 }

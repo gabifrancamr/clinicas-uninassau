@@ -11,7 +11,7 @@ export function SpecialtiesCard({ image, alt, title, page }) {
     }
 
     return (
-        <Card.Root minW="215px" overflow="hidden" alignItems={"center"}>
+        <Card.Root className="shadow" overflow="hidden" alignItems={"center"}>
             <Image
                 src={image}
                 alt={alt}
@@ -22,7 +22,7 @@ export function SpecialtiesCard({ image, alt, title, page }) {
             />
             <Card.Body gap="2">
                 <Card.Title textAlign={"center"}>{title}</Card.Title>
-                <Button onClick={() => goToPage(page)} variant="solid" colorPalette={"yellow"}>Ver mais</Button>
+                <Button onClick={() => goToPage(page)} variant="solid" bgColor={"blue.800"}>Ver mais</Button>
             </Card.Body>
             
         </Card.Root>
