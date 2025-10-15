@@ -18,7 +18,6 @@ export function Footer() {
       initial={{ opacity: 0, y: 20 }}           // movimento menor
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      viewport={{ once: true }}
     >
       <Text textAlign="center">
         © 2025 Clínica Escola UNINASSAU.
@@ -30,7 +29,6 @@ export function Footer() {
         initial={{ opacity: 0, y: 15 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.1 }}
-        viewport={{ once: true }}
       >
         {/* MOBILE */}
         <SimpleGrid display={{ base: "grid", md: "none" }} columns={2} gap="6">

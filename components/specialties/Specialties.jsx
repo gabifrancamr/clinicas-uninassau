@@ -20,7 +20,6 @@ export function Specialties() {
       initial={{ opacity: 0, y: 50 }} // começa invisível e mais abaixo
       whileInView={{ opacity: 1, y: 0 }} // aparece e sobe
       transition={{ duration: 0.6 }}
-      viewport={{ once: true }} // anima só na primeira vez que aparece
     >
       {/* Título com animação */}
       <MotionText
@@ -47,7 +46,7 @@ export function Specialties() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: i * 0.2 }} // delay crescente para efeito em sequência
-            viewport={{ once: true }}
+    
           >
             <SpecialtiesCard
               image={item.image}
