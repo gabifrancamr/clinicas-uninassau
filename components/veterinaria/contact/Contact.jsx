@@ -50,7 +50,7 @@ export function Contact() {
                                 fontSize={{ base: "md" }}
                                 className="text"
                             >
-                                Contato: (86) 99987-5239
+                                Contato: (86) 99970-4054
                             </Text>
                         </Flex>
 
@@ -62,7 +62,7 @@ export function Contact() {
                             width={"100%"}
                         >
                             <Link
-                                href="https://api.whatsapp.com/send/?phone=5586999875239&text=Ol%C3%A1%2C+vim+do+site+e+desejo+realizar+agendamento.&type=phone_number&app_absent=0"
+                                href="https://api.whatsapp.com/send/?phone=5586999704054&text=Ol%C3%A1%2C+vim+do+site+e+desejo+realizar+agendamento.&type=phone_number&app_absent=0"
                                 target="_blank"
                             >
                                 Conversar no WhatsApp
@@ -82,10 +82,10 @@ export function Contact() {
                         </Flex>
                         <List.Root ps="5">
                             <List.Item>
-                                Segunda à Sexta: 08:00 às 22:00
+                                Segunda à Quinta: 08:00 às 18:00
                             </List.Item>
                             <List.Item>
-                                Sábado: 08:00 às 16:00
+                                Sexta: 08:00 às 17:00
                             </List.Item>
                         </List.Root>
                     </Flex>
