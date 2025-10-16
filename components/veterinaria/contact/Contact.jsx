@@ -49,6 +49,7 @@ export function Contact() {
                             <Text
                                 fontSize={{ base: "md" }}
                                 className="text"
+                                color="blue.800"
                             >
                                 Contato: (86) 99970-4054
                             </Text>
@@ -76,11 +77,12 @@ export function Contact() {
                             <Text
                                 fontSize={{ base: "md", lg: "lg" }}
                                 className="text"
+                                color="blue.800"
                             >
                                 Horário de atendimento:
                             </Text>
                         </Flex>
-                        <List.Root ps="5">
+                        <List.Root ps="5" color="blue.800">
                             <List.Item>
                                 Segunda à Quinta: 08:00 às 18:00
                             </List.Item>
@@ -96,6 +98,7 @@ export function Contact() {
                             fontSize={{ base: "md", lg: "lg" }}
                             mb={6}
                             className="text"
+                            color="blue.800"
                         >
                             Localização: pela Av. Jockey Club, ao
                             lado da Casa das Linhas, e pela Rua Napoleão Lima, nº 1175.

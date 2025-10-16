@@ -19,7 +19,7 @@ export function ServicesTable({ category, description, items }) {
 
                     <Table.Body>
                         {items.map((item, i) => (
-                            <Table.Row key={`${item.name}-${i}`} _hover={{ bg: "blue.50" }}>
+                            <Table.Row key={`${item.name}-${i}`} _hover={{ bg: "blue.50" }} color="blue.900">
                                 <Table.Cell>{item.name}</Table.Cell>
                                 <Table.Cell>{item.note || ""}</Table.Cell>
                                 <Table.Cell textAlign="center">{item.price}</Table.Cell>

@@ -49,6 +49,7 @@ export function Contact() {
                             <Text
                                 fontSize={{ base: "md" }}
                                 className="text"
+                                color="blue.800"
                             >
                                 Contato: (86) 99987-5239
                             </Text>
@@ -71,16 +72,17 @@ export function Contact() {
                     </Flex>
 
                     <Flex width={"fit-content"} flexDirection={"column"}>
-                        <Flex gap={2} alignItems="flex-start" mt={4}>
+                        <Flex gap={2} alignItems="center" mt={4}>
                             <MdWatchLater size={30} color="blue" />
                             <Text
                                 fontSize={{ base: "md", lg: "lg" }}
                                 className="text"
+                                color="blue.800"
                             >
                                 Horário de atendimento:
                             </Text>
                         </Flex>
-                        <List.Root ps="5">
+                        <List.Root ps="5" color="blue.800">
                             <List.Item>
                                 Segunda à Sexta: 08:00 às 22:00
                             </List.Item>
@@ -96,6 +98,7 @@ export function Contact() {
                             fontSize={{ base: "md", lg: "lg" }}
                             mb={6}
                             className="text"
+                            color="blue.800"
                         >
                             Localização: pela Av. Jockey Club, ao
                             lado da Casa das Linhas, e pela Rua Napoleão Lima, nº 1175.

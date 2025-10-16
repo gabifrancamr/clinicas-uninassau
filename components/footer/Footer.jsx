@@ -30,7 +30,7 @@ export function Footer() {
         transition={{ duration: 0.6, delay: 0.1 }}
       >
         {/* MOBILE */}
-        <SimpleGrid display={{ base: "grid", md: "none" }} columns={{base: 1, sm: 2}} fontSize="sm" fontWeight="bold" gap={4}>
+        <SimpleGrid display={{ base: "grid", md: "none" }} columns={{base: 1, sm: 2}} fontSize="sm" fontWeight="bold" gap={4} color="blue.100">
           <Button bgColor="blue.800" size={"lg"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
             <RiInstagramFill />
             <Text
