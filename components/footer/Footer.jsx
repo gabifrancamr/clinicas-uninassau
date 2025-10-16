@@ -57,7 +57,7 @@ export function Footer() {
                 href="https://api.whatsapp.com/send/?phone=5586999875239&text=Ol%C3%A1%2C+vim+do+site+e+desejo+realizar+agendamento.&type=phone_number&app_absent=0"
                 target="_blank"
               >
-                Whatsapp Odontologia
+                WhatsApp Odontologia
               </Link>
             </Text>
           </Button>
@@ -74,7 +74,7 @@ export function Footer() {
                 href="https://api.whatsapp.com/send/?phone=5586999875239&text=Ol%C3%A1%2C+vim+do+site+e+desejo+realizar+agendamento.&type=phone_number&app_absent=0"
                 target="_blank"
               >
-                Whatsapp Psicologia
+                WhatsApp Psicologia
               </Link>
             </Text>
           </Button>
@@ -91,7 +91,7 @@ export function Footer() {
                 href="https://api.whatsapp.com/send/?phone=5586999704054&text=Ol%C3%A1%2C+vim+do+site+e+desejo+realizar+agendamento.&type=phone_number&app_absent=0"
                 target="_blank"
               >
-                Whatsapp Veterinária
+                WhatsApp Veterinária
               </Link>
             </Text>
           </Button>
@@ -125,7 +125,7 @@ export function Footer() {
                 href="https://api.whatsapp.com/send/?phone=5586999875239&text=Ol%C3%A1%2C+vim+do+site+e+desejo+realizar+agendamento.&type=phone_number&app_absent=0"
                 target="_blank"
               >
-                Whatsapp Odontologia
+                WhatsApp Odontologia
               </Link>
             </Text>
           </Button>
@@ -142,7 +142,7 @@ export function Footer() {
                 href="https://api.whatsapp.com/send/?phone=5586999875239&text=Ol%C3%A1%2C+vim+do+site+e+desejo+realizar+agendamento.&type=phone_number&app_absent=0"
                 target="_blank"
               >
-                Whatsapp Psicologia
+                WhatsApp Psicologia
               </Link>
             </Text>
           </Button>
@@ -159,7 +159,7 @@ export function Footer() {
                 href="https://api.whatsapp.com/send/?phone=5586999704054&text=Ol%C3%A1%2C+vim+do+site+e+desejo+realizar+agendamento.&type=phone_number&app_absent=0"
                 target="_blank"
               >
-                Whatsapp Veterinária
+                WhatsApp Veterinária
               </Link>
             </Text>
           </Button>
