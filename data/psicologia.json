@@ -1,0 +1,38 @@
+{
+  "psychology_services": [
+    {
+      "category": "Psicoterapia e Avaliação",
+      "description": "Atendimento psicológico individual, em grupo e de casal, além de avaliação profissional e psicológica.",
+      "items": [
+        {
+          "name": "Psicoterapia Adulta",
+          "price": "25,00"
+        },
+        {
+          "name": "Psicoterapia Infantil",
+          "price": "25,00"
+        },
+        {
+          "name": "Psicoterapia Presencial",
+          "price": "25,00"
+        },
+        {
+          "name": "Psicoterapia Online",
+          "price": "25,00"
+        },
+        {
+          "name": "Terapia em Grupo",
+          "price": "25,00"
+        },
+        {
+          "name": "Terapia de Casal",
+          "price": "30,00"
+        },
+        {
+          "name": "Avaliação Psicológica e Profissional",
+          "price": "50,00"
+        }
+      ]
+    }
+  ]
+}
