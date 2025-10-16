@@ -3,7 +3,7 @@
 import { Text, Flex } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import dentalServices from '../../../data/odontologia.json'
-import { ServicesCard } from "../services-card/ServicesCard";
+import { ServicesTable } from "../services-table/ServicesTable";
 
 // componentes animados
 const MotionFlex = motion(Flex);
@@ -47,7 +47,7 @@ export function Services() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: i * 0.2 }} // delay crescente para efeito em sequência
           >
-            <ServicesCard
+            <ServicesTable
               category={item.category}
               description={item.description}
               items={item.items}

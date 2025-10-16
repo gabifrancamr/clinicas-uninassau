@@ -1,6 +1,6 @@
-import { Box, List, Text, For, Stack, Table } from "@chakra-ui/react"
+import { Box, Text, Table } from "@chakra-ui/react"
 
-export function ServicesCard({ category, description, items }) {
+export function ServicesTable({ category, description, items }) {
     return (
         <Box width={"100vw"}>
             <Box>
