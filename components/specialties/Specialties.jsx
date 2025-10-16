@@ -37,9 +37,9 @@ export function Specialties() {
       {/* Cards animados */}
       <Flex flexDirection={{ base: "column", sm: "row" }} gap={2} alignItems="stretch" justifyContent="center" w="100%">
         {[
-          { image: "/psic.jpg", title: "🧠 Psicologia", description: "Escuta acolhedora e apoio emocional para todas as fases da vida" },
-          { image: "/dent.jpg", title: "🦷 Odontologia", description: "Saúde bucal com atenção, conforto e tecnologia" },
-          { image: "/vet.jpg", title: "🐾 Veterinária", description: "Cuidamos dos seus pets com carinho e responsabilidade" },
+          { image: "/psic.jpg", title: "🧠 Psicologia", description: "Escuta acolhedora e apoio emocional para todas as fases da vida", page: "psicologia" },
+          { image: "/dent.jpg", title: "🦷 Odontologia", description: "Saúde bucal com atenção, conforto e tecnologia", page: "odontologia" },
+          { image: "/vet.jpg", title: "🐾 Veterinária", description: "Cuidamos dos seus pets com carinho e responsabilidade", page: "veterinaria" },
         ].map((item, i) => (
           <motion.div
             key={item.title}
@@ -52,7 +52,7 @@ export function Specialties() {
               image={item.image}
               alt={`card de ${item.title.toLowerCase()}`}
               description={item.description}
-              page={item.title.toLowerCase()}
+              page={item.page}
               title={item.title}
             />
           </motion.div>
