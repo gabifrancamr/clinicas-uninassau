@@ -38,7 +38,7 @@ export function Services() {
       </MotionText>
 
       {/* Cards animados */}
-      <Flex flexDirection={"column"} gap={2} alignItems="stretch" justifyContent="center" w="100%">
+      <Flex flexDirection={"column"} gap={8} alignItems="stretch" justifyContent="center" w="100%">
         {dental_services.map((item, i) => (
           <motion.div
             key={item.category}
