@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, Flex, SimpleGrid, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, SimpleGrid, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import { RiInstagramFill, RiWhatsappFill } from "react-icons/ri";
 import { motion } from "framer-motion";
@@ -30,12 +30,12 @@ export function Footer() {
         transition={{ duration: 0.6, delay: 0.1 }}
       >
         {/* MOBILE */}
-        <SimpleGrid display={{ base: "grid", md: "none" }} columns={2} fontSize="sm" fontWeight="bold">
-          <Flex gap={2} alignItems="center">
+        <SimpleGrid display={{ base: "grid", md: "none" }} columns={{base: 1, sm: 2}} fontSize="sm" fontWeight="bold" gap={4}>
+          <Button bgColor="blue.800" size={"lg"} gap={2} alignItems="center">
             <RiInstagramFill />
             <Text
               cursor="pointer"
-              _hover={{ color: "blue.900", transform: "scale(1.05)" }}
+              _hover={{ transform: "scale(1.05)", bgColor: "blue.800", color: "blue.100" }}
               transition="all 0.2s"
               asChild
             >
@@ -43,13 +43,13 @@ export function Footer() {
                 @uninassauteresina
               </Link>
             </Text>
-          </Flex>
+          </Button>
 
-          <Flex gap={2} alignItems="center">
+          <Button bgColor="blue.800" gap={2} alignItems="center">
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
-              _hover={{ color: "blue.900", transform: "scale(1.05)" }}
+              _hover={{ transform: "scale(1.05)", bgColor: "blue.800", color: "blue.100" }}
               transition="all 0.2s"
               asChild
             >
@@ -60,13 +60,13 @@ export function Footer() {
                 Whatsapp Odontologia
               </Link>
             </Text>
-          </Flex>
+          </Button>
 
-          <Flex gap={2} alignItems="center">
+          <Button bgColor="blue.800" gap={2} alignItems="center">
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
-              _hover={{ color: "blue.900", transform: "scale(1.05)" }}
+              _hover={{ transform: "scale(1.05)", bgColor: "blue.800", color: "blue.100" }}
               transition="all 0.2s"
               asChild
             >
@@ -77,13 +77,13 @@ export function Footer() {
                 Whatsapp Psicologia
               </Link>
             </Text>
-          </Flex>
+          </Button>
 
-          <Flex gap={2} alignItems="center">
+          <Button bgColor="blue.800" gap={2} alignItems="center">
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
-              _hover={{ color: "blue.900", transform: "scale(1.05)" }}
+              _hover={{ transform: "scale(1.05)", bgColor: "blue.800", color: "blue.100" }}
               transition="all 0.2s"
               asChild
             >
@@ -94,16 +94,16 @@ export function Footer() {
                 Whatsapp Veterinária
               </Link>
             </Text>
-          </Flex>
+          </Button>
         </SimpleGrid>
 
         {/* DESKTOP */}
         <Flex display={{ base: "none", md: "flex" }} gap="6" fontWeight="bold">
-          <Flex gap={2} alignItems="center">
+          <Button bgColor="blue.800" gap={2} alignItems="center">
             <RiInstagramFill />
             <Text
               cursor="pointer"
-              _hover={{ color: "blue.900", transform: "scale(1.05)" }}
+              _hover={{ transform: "scale(1.05)", bgColor: "blue.800", color: "blue.100" }}
               transition="all 0.2s"
               asChild
             >
@@ -111,13 +111,13 @@ export function Footer() {
                 @uninassauteresina
               </Link>
             </Text>
-          </Flex>
+          </Button>
 
-          <Flex gap={2} alignItems="center">
+          <Button bgColor="blue.800" gap={2} alignItems="center">
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
-              _hover={{ color: "blue.900", transform: "scale(1.05)" }}
+              _hover={{ transform: "scale(1.05)", bgColor: "blue.800", color: "blue.100" }}
               transition="all 0.2s"
               asChild
             >
@@ -128,13 +128,13 @@ export function Footer() {
                 Whatsapp Odontologia
               </Link>
             </Text>
-          </Flex>
+          </Button>
 
-          <Flex gap={2} alignItems="center">
+          <Button bgColor="blue.800" gap={2} alignItems="center">
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
-              _hover={{ color: "blue.900", transform: "scale(1.05)" }}
+              _hover={{ transform: "scale(1.05)", bgColor: "blue.800", color: "blue.100" }}
               transition="all 0.2s"
               asChild
             >
@@ -145,13 +145,13 @@ export function Footer() {
                 Whatsapp Psicologia
               </Link>
             </Text>
-          </Flex>
+          </Button>
 
-          <Flex gap={2} alignItems="center">
+          <Button bgColor="blue.800" gap={2} alignItems="center">
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
-              _hover={{ color: "blue.900", transform: "scale(1.05)" }}
+              _hover={{ transform: "scale(1.05)", bgColor: "blue.800", color: "blue.100" }}
               transition="all 0.2s"
               asChild
             >
@@ -162,7 +162,7 @@ export function Footer() {
                 Whatsapp Veterinária
               </Link>
             </Text>
-          </Flex>
+          </Button>
         </Flex>
       </MotionFlex>
     </MotionBox>
