@@ -1,0 +1,151 @@
+{
+    "dental_services": [
+        {
+            "category": "Clínica Geral e Atendimento Básico",
+            "description": "Serviços essenciais, triagem e procedimentos de rotina.",
+            "items": [
+                {
+                    "name": "Consulta Odontológica (Triagem)",
+                    "price": 15
+                },
+                {
+                    "name": "Atendimento Clínico Básico",
+                    "price": 25,
+                    "note": "Profilaxia, Raspagem, Urgência, Endodontia, Restauração, Exodontia"
+                },
+                {
+                    "name": "Restauração",
+                    "price": 25
+                },
+                {
+                    "name": "Tratamento Endodôntico",
+                    "price": 25,
+                    "note": "Por sessão"
+                },
+                {
+                    "name": "Exodontia",
+                    "price": 25
+                },
+                {
+                    "name": "Capeamento Pulpar",
+                    "price": 25
+                }
+            ]
+        },
+        {
+            "category": "Cirurgia",
+            "description": "Procedimentos cirúrgicos diversos.",
+            "items": [
+                {
+                    "name": "Aumento de Coroa Clínica",
+                    "price": 100,
+                    "note": "Sem osteotomia"
+                },
+                {
+                    "name": "Aumento de Coroa Clínica",
+                    "price": 150,
+                    "note": "Com osteotomia"
+                },
+                {
+                    "name": "Ulotomia / Ulectomia",
+                    "price": 35
+                },
+                {
+                    "name": "Frenectomia Lingual ou Palatina",
+                    "price": 100
+                }
+            ]
+        },
+        {
+            "category": "Prótese Fixa e Restaurações",
+            "description": "Próteses permanentes e semipermanentes.",
+            "items": [
+                {
+                    "name": "Cimentação de Pino",
+                    "price": 25
+                },
+                {
+                    "name": "Provisório (Dente de Estoque)",
+                    "price": 150
+                },
+                {
+                    "name": "Coroa Cerômero",
+                    "price": 260
+                },
+                {
+                    "name": "Coroa E-MAX",
+                    "price": 460
+                },
+                {
+                    "name": "Prótese Adesiva",
+                    "price": 550,
+                    "note": "1 Pôntico + 2 Aletas"
+                }
+            ]
+        },
+        {
+            "category": "Estética e Placas",
+            "description": "Clareamento e dispositivos de proteção.",
+            "items": [
+                {
+                    "name": "Faceta de Resina Composta",
+                    "price": 40,
+                    "note": "Por dente"
+                },
+                {
+                    "name": "Clareamento Consultório",
+                    "price": 100,
+                    "note": "Uma sessão"
+                },
+                {
+                    "name": "Placa de Clareamento Caseiro",
+                    "price": 60,
+                    "note": "Por arcada"
+                },
+                {
+                    "name": "Placa Oclusal (Bruxismo)",
+                    "price": 300
+                }
+            ]
+        },
+        {
+            "category": "Prótese Removível e Moldagens",
+            "description": "Próteses totais, parciais e materiais de moldagem.",
+            "items": [
+                {
+                    "name": "Moldagem com Alginato e Gesso",
+                    "price": 40
+                },
+                {
+                    "name": "Moldagem Silicona Condensação",
+                    "price": 60
+                },
+                {
+                    "name": "Prótese Parcial Removível Provisória",
+                    "price": 260
+                },
+                {
+                    "name": "Prótese Total Convencional",
+                    "price": 365
+                },
+                {
+                    "name": "Prótese Total Caracterizada",
+                    "price": 432
+                },
+                {
+                    "name": "Prótese Parcial Removível Convencional",
+                    "price": 460
+                },
+                {
+                    "name": "Prótese Parcial Removível Caracterizada",
+                    "price": 527
+                },
+                {
+                    "name": "Retorno Prótese",
+                    "price": 0,
+                    "note": "Durante o acompanhamento"
+                }
+            ]
+        }
+    ]
+}
