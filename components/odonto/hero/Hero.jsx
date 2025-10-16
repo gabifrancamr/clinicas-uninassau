@@ -76,7 +76,7 @@ export function HeroOdonto() {
                     </Text>
 
                     <Box fontSize={{ base: "lg", lg: "xl" }} mb={4} className="text">
-                        <Text> Horários de atendimento:</Text>
+                        <Text> Horário de atendimento:</Text>
 
                         <List.Root ps="5">
                             <List.Item>
