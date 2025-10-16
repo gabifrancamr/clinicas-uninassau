@@ -8,21 +8,24 @@ import { ReactTyped } from "react-typed";
 // Componentes animados
 const MotionBox = motion(Box);
 const MotionFlex = motion(Flex);
+const MotionText = motion(Text);
 
 export function HeroOdonto() {
     return (
         <Box id="start" borderRadius="8px" mx={{ base: "1rem", md: "2rem" }} py={4}>
             {/* Título fixo, fora da imagem */}
-            <Text
+            <MotionText
                 fontSize={{ base: "2xl", md: "4xl" }}
                 fontWeight="bold"
                 textAlign="center"
-                mb={2}
                 className="title"
-            >
-                <ReactTyped strings={["Odontologia"]} typeSpeed={40} />
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
 
-            </Text>
+            >
+                Odontologia
+            </MotionText>
 
             <Flex
                 direction={{ base: "column", lg: "row" }}
