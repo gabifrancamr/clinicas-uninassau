@@ -6,31 +6,31 @@
       "items": [
         {
           "name": "Psicoterapia Adulta",
-          "price": "25,00"
+          "price": 25
         },
         {
           "name": "Psicoterapia Infantil",
-          "price": "25,00"
+          "price": 25
         },
         {
           "name": "Psicoterapia Presencial",
-          "price": "25,00"
+          "price": 25
         },
         {
           "name": "Psicoterapia Online",
-          "price": "25,00"
+          "price": 25
         },
         {
           "name": "Terapia em Grupo",
-          "price": "25,00"
+          "price": 25
         },
         {
           "name": "Terapia de Casal",
-          "price": "30,00"
+          "price": 30
         },
         {
           "name": "Avaliação Psicológica e Profissional",
-          "price": "50,00"
+          "price": 50
         }
       ]
     }

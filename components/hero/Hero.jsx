@@ -58,7 +58,7 @@ export function Hero() {
           flex="1"
           flexDirection="column"
           minW={{ base: "300px", lg: "400px" }}
-          textAlign={{ base: "center", lg: "left" }}
+          textAlign={{ base: "center", sm: "left" }}
           initial={{ opacity: 0, x: 80 }} // começa invisível e à direita
           whileInView={{ opacity: 1, x: 0 }} // entra na tela
           transition={{ duration: 0.6, delay: 0.2 }} // entra depois da imagem

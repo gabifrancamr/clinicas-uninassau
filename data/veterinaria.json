@@ -6,64 +6,59 @@
             "items": [
                 {
                     "name": "Consulta Clínica (Canina/Felina)",
-                    "price": "32"
+                    "price": 32
                 },
                 {
                     "name": "Consulta com Desconto",
-                    "price": "27,20"
+                    "price": 27.20
                 },
                 {
                     "name": "Consulta Especialista",
-                    "price": "50"
+                    "price": 50
                 },
                 {
                     "name": "Consulta Pré-Cirúrgica",
-                    "price": "30"
+                    "price": 30
                 },
                 {
-                    "name": "Consulta de Retorno",
-                    "price": "0",
-                    "note": "Gratuita, verificar prazo."
-                },
-                {
-                    "name": "Vacina Anti-rábica",
-                    "price": "50"
+                    "name": "Vacina Raiva",
+                    "price": 50
                 },
                 {
                     "name": "Vacina Viroses (Fel/Can) / Giardia / Gripe",
-                    "price": "110"
+                    "price": 110
                 },
                 {
                     "name": "Vacina Viroses (Desconto)",
-                    "price": "93,50"
+                    "price": 93.50
                 },
                 {
                     "name": "Vacina Raiva (Desconto)",
-                    "price": "42,50"
+                    "price": 42.50
                 },
                 {
                     "name": "Aferição de Glicemia",
-                    "price": "20"
+                    "price": 20
                 },
                 {
                     "name": "Aferição de Pressão",
-                    "price": "20"
+                    "price": 20
                 },
                 {
                     "name": "Enema",
-                    "price": "50"
+                    "price": 50
                 },
                 {
                     "name": "Limpeza de Ouvido",
-                    "price": "5"
+                    "price": 5
                 },
                 {
                     "name": "Sonda Uretral Cães",
-                    "price": "60"
+                    "price": 60
                 },
                 {
                     "name": "Sonda Uretral Felinos",
-                    "price": "100"
+                    "price": 100
                 }
             ]
         },
@@ -73,63 +68,63 @@
             "items": [
                 {
                     "name": "Hemograma",
-                    "price": "34"
+                    "price": 34
                 },
                 {
                     "name": "Ureia",
-                    "price": "19,90"
+                    "price": 19.90
                 },
                 {
                     "name": "Creatinina",
-                    "price": "19,90"
+                    "price": 19.90
                 },
                 {
                     "name": "Glicose",
-                    "price": "18,90"
+                    "price": 18.90
                 },
                 {
                     "name": "Fosfatase Alcalina (FA)",
-                    "price": "19,90"
+                    "price": 19.90
                 },
                 {
                     "name": "TGP (ALT)",
-                    "price": "19,90"
+                    "price": 19.90
                 },
                 {
                     "name": "Amilase e Lipase",
-                    "price": "70"
+                    "price": 70
                 },
                 {
                     "name": "FIV/FELV (Teste Rápido)",
-                    "price": "90"
+                    "price": 90
                 },
                 {
                     "name": "Teste Rápido Leishmaniose",
-                    "price": "90"
+                    "price": 90
                 },
                 {
                     "name": "Teste Rápido Erliquiose",
-                    "price": "90"
+                    "price": 90
                 },
                 {
                     "name": "Teste 4DX (Erlichiose, Anaplasma, Dirofilária)",
-                    "price": "182"
+                    "price": 182
                 },
                 {
                     "name": "Sumário de Urina (Urinálise)",
-                    "price": "29,70"
+                    "price": 29.70
                 },
                 {
                     "name": "Parasitológico de Fezes Completo",
-                    "price": "33,75"
+                    "price": 33.75
                 },
                 {
                     "name": "Histopatológico Massa/Nódulo",
-                    "price": "189"
+                    "price": 189
                 },
                 {
                     "name": "Cultura Bacteriana + Antibiograma",
-                    "price": "112"
+                    "price": 112
                 }
             ]
         },
@@ -139,20 +134,15 @@
             "items": [
                 {
                     "name": "Ecocardiograma",
-                    "price": "200"
+                    "price": 200
                 },
                 {
                     "name": "Eletrocardiograma (ECG)",
-                    "price": "150"
+                    "price": 150
                 },
                 {
                     "name": "TORACOCENTESE",
-                    "price": "80"
-                },
-                {
-                    "name": "Raio X Por Região",
-                    "price": "0",
-                    "note": "Consultar valor específico p/ abdômen, tórax, etc."
+                    "price": 80
                 }
             ]
         },
@@ -162,63 +152,59 @@
             "items": [
                 {
                     "name": "Taxa Anestesista (Profissional)",
-                    "price": "250"
+                    "price": 250
                 },
                 {
                     "name": "Anestesia Geral Inalatória (Por Hora ou Fração)",
-                    "price": "400"
+                    "price": 400
                 },
                 {
                     "name": "Anestesia Local",
-                    "price": "160"
+                    "price": 160
                 },
                 {
                     "name": "Castração (Orquiectomia) Canino Macho (2-5KG)",
-                    "price": "565"
+                    "price": 565
                 },
                 {
                     "name": "Castração (Orquiectomia) Canino Macho (5-20KG)",
-                    "price": "627"
+                    "price": 627
                 },
                 {
                     "name": "Castração (OSH) Canino Fêmea (2-5KG)",
-                    "price": "627"
+                    "price": 627
                 },
                 {
                     "name": "Castração (OSH) Canino Fêmea (20-30KG)",
-                    "price": "753"
+                    "price": 753
                 },
                 {
                     "name": "Castração (Orquiectomia) Felino Macho",
-                    "price": "502"
+                    "price": 502
                 },
                 {
                     "name": "Castração (OSH) Felino Fêmea",
-                    "price": "565"
+                    "price": 565
                 },
                 {
                     "name": "Cirurgia Tecido Mole PP (Até 5KG)",
-                    "price": "200"
+                    "price": 200
                 },
                 {
                     "name": "Cirurgia Tecido Mole M (10-20KG)",
-                    "price": "300"
+                    "price": 300
                 },
                 {
                     "name": "Cirurgia Tecido Mole G (20-30KG)",
-                    "price": "400"
+                    "price": 400
                 },
                 {
                     "name": "Eutanásia Cão (0-5KG)",
-                    "price": "200"
+                    "price": 200
                 },
                 {
                     "name": "Eutanásia Cão (>30KG)",
-                    "price": "400"
-                },
-                {
-                    "name": "Taxa Aula Cirurgia",
-                    "price": "100"
+                    "price": 400
                 }
             ]
         },
@@ -228,55 +214,55 @@
             "items": [
                 {
                     "name": "Soroterapia Intravenosa (IV) Cão (0-5KG)",
-                    "price": "25"
+                    "price": 25
                 },
                 {
                     "name": "Soroterapia IV Cão (20-30KG)",
-                    "price": "40"
+                    "price": 40
                 },
                 {
                     "name": "Soroterapia IV Felino (0-6KG)",
-                    "price": "25"
+                    "price": 25
                 },
                 {
                     "name": "Soroterapia Subcutânea (SC)",
-                    "price": "20"
+                    "price": 20
                 },
                 {
                     "name": "Taxa de Oxigênio (Por Hora ou Fração)",
-                    "price": "20"
+                    "price": 20
                 },
                 {
                     "name": "Curativo P",
-                    "price": "30"
+                    "price": 30
                 },
                 {
                     "name": "Curativo M",
-                    "price": "50"
+                    "price": 50
                 },
                 {
                     "name": "Curativo G",
-                    "price": "70"
+                    "price": 70
                 },
                 {
                     "name": "Curativo de Miíase + Tranquilização P",
-                    "price": "250"
+                    "price": 250
                 },
                 {
                     "name": "Curativo de Miíase + Tranquilização G",
-                    "price": "350"
+                    "price": 350
                 },
                 {
                     "name": "Aplicação com Medicamento Cão (>30KG)",
-                    "price": "35"
+                    "price": 35
                 },
                 {
                     "name": "Aplicação de Vincristina (Somente Aplicação)",
-                    "price": "50"
+                    "price": 50
                 },
                 {
                     "name": "Paracentese",
-                    "price": "50"
+                    "price": 50
                 }
             ]
         },
@@ -286,59 +272,55 @@
             "items": [
                 {
                     "name": "Bravecto (2 a 4,5 kg)",
-                    "price": "220"
+                    "price": 220
                 },
                 {
                     "name": "Simparic 5 mg",
-                    "price": "88"
+                    "price": 88
                 },
                 {
                     "name": "Scalibor 65 cm",
-                    "price": "132"
+                    "price": 132
                 },
                 {
                     "name": "Roupa Cirúrgica Cão/Gato (Tam. 1, 2, 3)",
-                    "price": "73,50"
+                    "price": 73.50
                 },
                 {
                     "name": "Roupa Cirúrgica Cão (Tam. 7)",
-                    "price": "93,98"
+                    "price": 93.98
                 },
                 {
                     "name": "Agemoxi CL 250 mg",
-                    "price": "11,80"
+                    "price": 11.80
                 },
                 {
                     "name": "Cerenia 60 mg",
-                    "price": "45,50"
+                    "price": 45.50
                 },
                 {
                     "name": "Doxifin 100 mg",
-                    "price": "4"
+                    "price": 4
                 },
                 {
                     "name": "Glicopan Gold",
-                    "price": "84"
+                    "price": 84
                 },
                 {
                     "name": "Omega 3 SE 1100",
-                    "price": "181"
+                    "price": 181
                 },
                 {
                     "name": "Probiótico",
-                    "price": "57"
+                    "price": 57
                 },
                 {
                     "name": "Removedor de Cerúmen 100 ml",
-                    "price": "50"
-                },
-                {
-                    "name": "Tapo Higiênico Avulso",
-                    "value": "5"
+                    "price": 50
                 },
                 {
                     "name": "Vetmax Plus",
-                    "price": "13"
+                    "price": 13
                 }
             ]
         }

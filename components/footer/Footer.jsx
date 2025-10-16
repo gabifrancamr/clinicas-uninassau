@@ -31,7 +31,7 @@ export function Footer() {
       >
         {/* MOBILE */}
         <SimpleGrid display={{ base: "grid", md: "none" }} columns={{base: 1, sm: 2}} fontSize="sm" fontWeight="bold" gap={4} color="blue.100">
-          <Button bgColor="blue.800" color={"blue.100"} size={"lg"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
+          <Button bgColor="blue.800" color={"blue.50"} size={"lg"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}>
             <RiInstagramFill />
             <Text
               cursor="pointer"
@@ -45,7 +45,7 @@ export function Footer() {
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" color={"blue.100"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
+          <Button bgColor="blue.800" color={"blue.50"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}>
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
@@ -62,7 +62,7 @@ export function Footer() {
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" color={"blue.100"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
+          <Button bgColor="blue.800" color={"blue.50"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}>
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
@@ -79,7 +79,7 @@ export function Footer() {
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" color={"blue.100"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
+          <Button bgColor="blue.800" color={"blue.50"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}>
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
@@ -99,7 +99,7 @@ export function Footer() {
 
         {/* DESKTOP */}
         <Flex display={{ base: "none", md: "flex" }} gap="6" fontWeight="bold">
-          <Button bgColor="blue.800" color={"blue.100"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
+          <Button bgColor="blue.800" color={"blue.50"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}>
             <RiInstagramFill />
             <Text
               cursor="pointer"
@@ -113,7 +113,7 @@ export function Footer() {
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" color={"blue.100"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
+          <Button bgColor="blue.800" color={"blue.50"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}>
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
@@ -130,7 +130,7 @@ export function Footer() {
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" color={"blue.100"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
+          <Button bgColor="blue.800" color={"blue.50"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}>
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
@@ -147,7 +147,7 @@ export function Footer() {
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" color={"blue.100"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
+          <Button bgColor="blue.800" color={"blue.50"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}>
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
