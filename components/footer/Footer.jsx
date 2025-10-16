@@ -31,11 +31,11 @@ export function Footer() {
       >
         {/* MOBILE */}
         <SimpleGrid display={{ base: "grid", md: "none" }} columns={{base: 1, sm: 2}} fontSize="sm" fontWeight="bold" gap={4}>
-          <Button bgColor="blue.800" size={"lg"} gap={2} alignItems="center">
+          <Button bgColor="blue.800" size={"lg"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
             <RiInstagramFill />
             <Text
               cursor="pointer"
-              _hover={{ transform: "scale(1.05)", bgColor: "blue.800", color: "blue.100" }}
+              _hover={{ transform: "scale(1.05)" }}
               transition="all 0.2s"
               asChild
             >
@@ -45,11 +45,11 @@ export function Footer() {
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" gap={2} alignItems="center">
+          <Button bgColor="blue.800" gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
-              _hover={{ transform: "scale(1.05)", bgColor: "blue.800", color: "blue.100" }}
+              _hover={{ transform: "scale(1.05)" }}
               transition="all 0.2s"
               asChild
             >
@@ -62,11 +62,11 @@ export function Footer() {
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" gap={2} alignItems="center">
+          <Button bgColor="blue.800" gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
-              _hover={{ transform: "scale(1.05)", bgColor: "blue.800", color: "blue.100" }}
+              _hover={{ transform: "scale(1.05)" }}
               transition="all 0.2s"
               asChild
             >
@@ -79,11 +79,11 @@ export function Footer() {
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" gap={2} alignItems="center">
+          <Button bgColor="blue.800" gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
-              _hover={{ transform: "scale(1.05)", bgColor: "blue.800", color: "blue.100" }}
+              _hover={{ transform: "scale(1.05)" }}
               transition="all 0.2s"
               asChild
             >
@@ -99,11 +99,11 @@ export function Footer() {
 
         {/* DESKTOP */}
         <Flex display={{ base: "none", md: "flex" }} gap="6" fontWeight="bold">
-          <Button bgColor="blue.800" gap={2} alignItems="center">
+          <Button bgColor="blue.800" gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
             <RiInstagramFill />
             <Text
               cursor="pointer"
-              _hover={{ transform: "scale(1.05)", bgColor: "blue.800", color: "blue.100" }}
+              _hover={{ transform: "scale(1.05)" }}
               transition="all 0.2s"
               asChild
             >
@@ -113,11 +113,11 @@ export function Footer() {
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" gap={2} alignItems="center">
+          <Button bgColor="blue.800" gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
-              _hover={{ transform: "scale(1.05)", bgColor: "blue.800", color: "blue.100" }}
+              _hover={{ transform: "scale(1.05)" }}
               transition="all 0.2s"
               asChild
             >
@@ -130,11 +130,11 @@ export function Footer() {
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" gap={2} alignItems="center">
+          <Button bgColor="blue.800" gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
-              _hover={{ transform: "scale(1.05)", bgColor: "blue.800", color: "blue.100" }}
+              _hover={{ transform: "scale(1.05)" }}
               transition="all 0.2s"
               asChild
             >
@@ -147,11 +147,11 @@ export function Footer() {
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" gap={2} alignItems="center">
+          <Button bgColor="blue.800" gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900", color: "blue.50" }}>
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
-              _hover={{ transform: "scale(1.05)", bgColor: "blue.800", color: "blue.100" }}
+              _hover={{ transform: "scale(1.05)" }}
               transition="all 0.2s"
               asChild
             >
