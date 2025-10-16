@@ -47,7 +47,7 @@ export function Map() {
             mb={6}
             className="text"
           >
-            São duas entradas para melhor te receber: pela Av. Jockey Club, ao
+            Dispomos de duas entradas, oferecendo mais comodidade e facilidade de acesso: pela Av. Jockey Club, ao
             lado da Casa das Linhas, e pela Rua Napoleão Lima, nº 1175.
           </Text>
         </Flex>
