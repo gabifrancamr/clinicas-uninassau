@@ -48,7 +48,7 @@ export function HeroVeterinaria() {
                     transition={{ duration: 0.6 }}
                 >
                     <Image
-                        src="/hero-odonto.png"
+                        src="/hero-vet.png"
                         alt="hero"
                         maxW={{ base: "100%", lg: "100%" }}
                         h="auto"

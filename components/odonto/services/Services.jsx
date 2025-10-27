@@ -1,8 +1,8 @@
 "use client";
 
-import { Text, Flex } from "@chakra-ui/react";
+import { Text, Flex, Box } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-import dentalServices from '../../../data/odontologia.json'
+import dentalServices from "../../../data/odontologia.json";
 import { ServicesTable } from "../services-table/ServicesTable";
 
 // componentes animados
@@ -10,7 +10,7 @@ const MotionFlex = motion(Flex);
 const MotionText = motion(Text);
 
 export function Services() {
-    const { dental_services } = dentalServices;
+  const { dental_services } = dentalServices;
 
   return (
     <MotionFlex
@@ -24,21 +24,41 @@ export function Services() {
       whileInView={{ opacity: 1, y: 0 }} // aparece e sobe
       transition={{ duration: 0.6 }}
     >
-      {/* Título com animação */}
-      <MotionText
-        fontSize={{ base: "2xl", md: "4xl" }}
-        fontWeight="bold"
-        textAlign="center"
-        className="title"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, delay: 0.1 }}
-      >
-        Serviços e valores
-      </MotionText>
+      <Box>
+        {/* Título com animação */}
+        <MotionText
+          fontSize={{ base: "2xl", md: "4xl" }}
+          fontWeight="bold"
+          textAlign="center"
+          className="title"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+        >
+          Serviços e valores
+        </MotionText>
+
+        <MotionText
+          fontSize={{ base: "md", md: "lg" }}
+          fontWeight="medium"
+          textAlign="center"
+          className="text"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+        >
+          15% de desconto para alunos e funcionários
+        </MotionText>
+      </Box>
 
       {/* Cards animados */}
-      <Flex flexDirection={"column"} gap={8} alignItems="stretch" justifyContent="center" w="100%">
+      <Flex
+        flexDirection={"column"}
+        gap={8}
+        alignItems="stretch"
+        justifyContent="center"
+        w="100%"
+      >
         {dental_services.map((item, i) => (
           <motion.div
             key={item.category}

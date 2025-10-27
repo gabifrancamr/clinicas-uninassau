@@ -48,7 +48,7 @@ export function HeroPsicologia() {
                     transition={{ duration: 0.6 }}
                 >
                     <Image
-                        src="/hero-odonto.png"
+                        src="/hero-psico.png"
                         alt="hero"
                         maxW={{ base: "100%", lg: "100%" }}
                         h="auto"
