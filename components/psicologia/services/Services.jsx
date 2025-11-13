@@ -54,6 +54,7 @@ export function Services() {
       {/* Cards animados */}
       <Flex
         flexDirection={"column"}
+        gap={8}
         alignItems="stretch"
         justifyContent="center"
         w="100%"
