@@ -1,326 +1,202 @@
 {
     "veterinary_services": [
         {
-            "category": "Atendimento Clínico e Ambulatorial",
-            "description": "Consultas, vacinas, procedimentos de rotina e pequenos manejos.",
+            "category": "Consultas e Exames Básicos",
+            "description": "Atendimentos clínicos e exames essenciais para diagnóstico",
             "items": [
                 {
-                    "name": "Consulta Clínica (Canina/Felina)",
+                    "name": "Consulta Canino",
                     "price": 32
                 },
                 {
-                    "name": "Consulta com Desconto",
-                    "price": 27.20
+                    "name": "Consulta Felino",
+                    "price": 32
                 },
                 {
                     "name": "Consulta Especialista",
                     "price": 50
                 },
                 {
-                    "name": "Consulta Pré-Cirúrgica",
-                    "price": 30
-                },
-                {
-                    "name": "Vacina Raiva",
-                    "price": 50
-                },
-                {
-                    "name": "Vacina Viroses (Fel/Can) / Giardia / Gripe",
-                    "price": 110
-                },
-                {
-                    "name": "Vacina Viroses (Desconto)",
-                    "price": 93.50
-                },
-                {
-                    "name": "Vacina Raiva (Desconto)",
-                    "price": 42.50
-                },
-                {
-                    "name": "Aferição de Glicemia",
-                    "price": 20
-                },
-                {
-                    "name": "Aferição de Pressão",
-                    "price": 20
-                },
-                {
-                    "name": "Enema",
-                    "price": 50
-                },
-                {
-                    "name": "Limpeza de Ouvido",
-                    "price": 5
-                },
-                {
-                    "name": "Sonda Uretral Cães",
-                    "price": 60
-                },
-                {
-                    "name": "Sonda Uretral Felinos",
-                    "price": 100
-                }
-            ]
-        },
-        {
-            "category": "Exames Laboratoriais e Testes",
-            "description": "Análises clínicas para diagnóstico completo.",
-            "items": [
-                {
                     "name": "Hemograma",
                     "price": 34
                 },
                 {
-                    "name": "Ureia",
-                    "price": 19.90
-                },
-                {
-                    "name": "Creatinina",
-                    "price": 19.90
-                },
-                {
-                    "name": "Glicose",
-                    "price": 18.90
-                },
-                {
-                    "name": "Fosfatase Alcalina (FA)",
-                    "price": 19.90
-                },
-                {
-                    "name": "TGP (ALT)",
-                    "price": 19.90
-                },
-                {
-                    "name": "Amilase e Lipase",
-                    "price": 70
-                },
-                {
-                    "name": "FIV/FELV (Teste Rápido)",
-                    "price": 90
-                },
-                {
-                    "name": "Teste Rápido Leishmaniose",
-                    "price": 90
-                },
-                {
-                    "name": "Teste Rápido Erliquiose",
-                    "price": 90
-                },
-                {
-                    "name": "Teste 4DX (Erlichiose, Anaplasma, Dirofilária)",
-                    "price": 182
-                },
-                {
-                    "name": "Sumário de Urina (Urinálise)",
+                    "name": "Urinálise",
                     "price": 29.70
                 },
                 {
-                    "name": "Parasitológico de Fezes Completo",
-                    "price": 33.75
-                },
-                {
-                    "name": "Histopatológico Massa/Nódulo",
-                    "price": 189
-                },
-                {
-                    "name": "Cultura Bacteriana + Antibiograma",
-                    "price": 112
+                    "name": "Teste Rápido FIV/FELV",
+                    "price": 90
                 }
             ]
         },
         {
-            "category": "Exames de Imagem e Cardiopulmonar",
-            "description": "Diagnóstico por imagem e avaliação cardíaca.",
+            "category": "Vacinas",
+            "description": "Imunização e prevenção de doenças",
+            "items": [
+                {
+                    "name": "Vacina Giardia + Gripe",
+                    "price": 110
+                },
+                {
+                    "name": "Vacina Raiva",
+                    "price": 50
+                }
+            ]
+        },
+        {
+            "category": "Cirurgias",
+            "description": "Procedimentos cirúrgicos eletivos e de rotina",
+            "items": [
+                {
+                    "name": "Castração - Felino Macho",
+                    "price": 502
+                },
+                {
+                    "name": "Castração - Felino Fêmea",
+                    "price": 565
+                },
+                {
+                    "name": "Castração - Canino Macho (2-5kg)",
+                    "price": 565
+                },
+                {
+                    "name": "Castração - Canino Macho (5-20kg)",
+                    "price": 627
+                },
+                {
+                    "name": "Castração - Canino Fêmea (2-5kg)",
+                    "price": 627
+                },
+                {
+                    "name": "Castração - Canino Fêmea (20-30kg)",
+                    "price": 753
+                }
+            ]
+        },
+        {
+            "category": "Exames de Imagem",
+            "description": "Diagnóstico por imagem e avaliação cardíaca",
             "items": [
                 {
                     "name": "Ecocardiograma",
                     "price": 200
                 },
                 {
-                    "name": "Eletrocardiograma (ECG)",
+                    "name": "Eletrocardiograma",
                     "price": 150
-                },
-                {
-                    "name": "TORACOCENTESE",
-                    "price": 80
                 }
             ]
         },
         {
-            "category": "Cirurgia e Anestesia",
-            "description": "Procedimentos cirúrgicos eletivos e complexos.",
+            "category": "Procedimentos Essenciais",
+            "description": "Cuidados básicos e terapias de suporte",
             "items": [
                 {
-                    "name": "Taxa Anestesista (Profissional)",
-                    "price": 250
+                    "name": "Limpeza de Ouvido",
+                    "price": 5
                 },
                 {
-                    "name": "Anestesia Geral Inalatória (Por Hora ou Fração)",
-                    "price": 400
+                    "name": "Aplicação com Medicamento (Cão 0-5kg)",
+                    "price": 15
                 },
                 {
-                    "name": "Anestesia Local",
-                    "price": 160
-                },
-                {
-                    "name": "Castração (Orquiectomia) Canino Macho (2-5KG)",
-                    "price": 565
-                },
-                {
-                    "name": "Castração (Orquiectomia) Canino Macho (5-20KG)",
-                    "price": 627
-                },
-                {
-                    "name": "Castração (OSH) Canino Fêmea (2-5KG)",
-                    "price": 627
-                },
-                {
-                    "name": "Castração (OSH) Canino Fêmea (20-30KG)",
-                    "price": 753
-                },
-                {
-                    "name": "Castração (Orquiectomia) Felino Macho",
-                    "price": 502
-                },
-                {
-                    "name": "Castração (OSH) Felino Fêmea",
-                    "price": 565
-                },
-                {
-                    "name": "Cirurgia Tecido Mole PP (Até 5KG)",
-                    "price": 200
-                },
-                {
-                    "name": "Cirurgia Tecido Mole M (10-20KG)",
-                    "price": 300
-                },
-                {
-                    "name": "Cirurgia Tecido Mole G (20-30KG)",
-                    "price": 400
-                },
-                {
-                    "name": "Eutanásia Cão (0-5KG)",
-                    "price": 200
-                },
-                {
-                    "name": "Eutanásia Cão (>30KG)",
-                    "price": 400
-                }
-            ]
-        },
-        {
-            "category": "Internação e Suporte Terapêutico",
-            "description": "Cuidados intensivos, fluidoterapia e manejo de suporte.",
-            "items": [
-                {
-                    "name": "Soroterapia Intravenosa (IV) Cão (0-5KG)",
+                    "name": "Aplicação com Medicamento (Cão 10-20kg)",
                     "price": 25
                 },
                 {
-                    "name": "Soroterapia IV Cão (20-30KG)",
-                    "price": 40
-                },
-                {
-                    "name": "Soroterapia IV Felino (0-6KG)",
+                    "name": "Soroterapia IV (Cão 0-5kg)",
                     "price": 25
                 },
                 {
-                    "name": "Soroterapia Subcutânea (SC)",
-                    "price": 20
-                },
-                {
-                    "name": "Taxa de Oxigênio (Por Hora ou Fração)",
-                    "price": 20
-                },
-                {
-                    "name": "Curativo P",
-                    "price": 30
-                },
-                {
-                    "name": "Curativo M",
-                    "price": 50
-                },
-                {
-                    "name": "Curativo G",
-                    "price": 70
-                },
-                {
-                    "name": "Curativo de Miíase + Tranquilização P",
-                    "price": 250
-                },
-                {
-                    "name": "Curativo de Miíase + Tranquilização G",
-                    "price": 350
-                },
-                {
-                    "name": "Aplicação com Medicamento Cão (>30KG)",
-                    "price": 35
-                },
-                {
-                    "name": "Aplicação de Vincristina (Somente Aplicação)",
-                    "price": 50
-                },
-                {
-                    "name": "Paracentese",
-                    "price": 50
+                    "name": "Soroterapia IV (Felino 0-6kg)",
+                    "price": 25
                 }
             ]
         },
         {
-            "category": "Produtos e Medicamentos (Uso/Venda)",
-            "description": "Medicamentos, nutracêuticos e acessórios de uso/venda.",
+            "category": "Vermífugos e Antiparasitários",
+            "description": "Prevenção e controle de parasitas",
             "items": [
                 {
                     "name": "Bravecto (2 a 4,5 kg)",
                     "price": 220
                 },
                 {
+                    "name": "Bravecto (4,5 a 10 kg)",
+                    "price": 240
+                },
+                {
                     "name": "Simparic 5 mg",
                     "price": 88
                 },
                 {
+                    "name": "Simparic 20 mg",
+                    "price": 102.50
+                },
+                {
+                    "name": "Revolution 6% Gatos",
+                    "price": 87.50
+                },
+                {
+                    "name": "Scalibor 48 cm",
+                    "price": 120
+                },
+                {
                     "name": "Scalibor 65 cm",
                     "price": 132
+                }
+            ]
+        },
+        {
+            "category": "Medicamentos",
+            "description": "Medicamentos de uso frequente",
+            "items": [
+                {
+                    "name": "Cerenia 16 mg (antivômito)",
+                    "price": 32.25
                 },
                 {
-                    "name": "Roupa Cirúrgica Cão/Gato (Tam. 1, 2, 3)",
-                    "price": 73.50
-                },
-                {
-                    "name": "Roupa Cirúrgica Cão (Tam. 7)",
-                    "price": 93.98
-                },
-                {
-                    "name": "Agemoxi CL 250 mg",
-                    "price": 11.80
-                },
-                {
-                    "name": "Cerenia 60 mg",
+                    "name": "Cerenia 60 mg (antivômito)",
                     "price": 45.50
                 },
                 {
-                    "name": "Doxifin 100 mg",
-                    "price": 4
+                    "name": "Carproflan 25 mg (anti-inflamatório)",
+                    "price": 5.50
                 },
                 {
-                    "name": "Glicopan Gold",
-                    "price": 84
+                    "name": "Carproflan 100 mg (anti-inflamatório)",
+                    "price": 9
                 },
                 {
-                    "name": "Omega 3 SE 1100",
-                    "price": 181
+                    "name": "Maxicam 0,5 mg (anti-inflamatório)",
+                    "price": 3.65
+                },
+                {
+                    "name": "Maxicam 2 mg (anti-inflamatório)",
+                    "price": 5.75
+                }
+            ]
+        },
+        {
+            "category": "Produtos de Cuidado Diário",
+            "description": "Produtos para higiene e saúde preventiva",
+            "items": [
+                {
+                    "name": "Epiotic (limpeza auricular)",
+                    "price": 91
+                },
+                {
+                    "name": "Dermotrat Creme (dermatológico)",
+                    "price": 101
+                },
+                {
+                    "name": "Dermotrat Spray (dermatológico)",
+                    "price": 123
                 },
                 {
                     "name": "Probiótico",
                     "price": 57
-                },
-                {
-                    "name": "Removedor de Cerúmen 100 ml",
-                    "price": 50
-                },
-                {
-                    "name": "Vetmax Plus",
-                    "price": 13
                 }
             ]
         }

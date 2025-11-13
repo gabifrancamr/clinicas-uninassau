@@ -84,7 +84,7 @@ export function Contact() {
                         </Flex>
                         <List.Root ps="5" color="blue.800">
                             <List.Item>
-                                Segunda à Sexta: 08:00 às 22:00
+                                Segunda a Sexta: 08:00 às 22:00
                             </List.Item>
                             <List.Item>
                                 Sábado: 08:00 às 16:00

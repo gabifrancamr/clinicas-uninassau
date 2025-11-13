@@ -8,7 +8,7 @@ export function SpecialtiesHeaderMenu() {
     return (
         <Box>
             {/* --- MENU HAMBURGUER (mobile) --- */}
-            <Box display={{ base: "block", md: "none" }}>
+            <Box display={{ base: "block", lg: "none" }}>
                 <Menu.Root>
                     <Menu.Trigger asChild>
                         <Button bgColor={"blue.800"} color={"white"} variant="solid" size="sm">
@@ -27,6 +27,15 @@ export function SpecialtiesHeaderMenu() {
                                 <Menu.Item asChild>
                                     <Link href="#location">Contato e Localização</Link>
                                 </Menu.Item>
+                                <Menu.Item asChild>
+                                    <Link href="/psicologia">Psicologia</Link>
+                                </Menu.Item>
+                                <Menu.Item asChild>
+                                    <Link href="/odontologia">Odontologia</Link>
+                                </Menu.Item>
+                                <Menu.Item asChild>
+                                    <Link href="/veterinaria">Veterinária</Link>
+                                </Menu.Item>
                             </Menu.Content>
                         </Menu.Positioner>
                     </Portal>
@@ -36,7 +45,7 @@ export function SpecialtiesHeaderMenu() {
             {/* --- NAVBAR (desktop) --- */}
             <HStack
                 as="nav"
-                display={{ base: "none", md: "flex" }}
+                display={{ base: "none", lg: "flex" }}
                 color="blue.800"
                 fontWeight="bold"
                 gap={30}
@@ -69,6 +78,36 @@ export function SpecialtiesHeaderMenu() {
                 >
                     <Link href="#location">
                         Contato e Localização
+                    </Link>
+                </Text>
+                <Text
+                    asChild
+                    cursor="pointer"
+                    _hover={{ color: "blue.900", transform: "scale(1.05)" }}
+                    transition="all 0.2s"
+                >
+                    <Link href="/psicologia">
+                        Psicologia
+                    </Link>
+                </Text>
+                <Text
+                    asChild
+                    cursor="pointer"
+                    _hover={{ color: "blue.900", transform: "scale(1.05)" }}
+                    transition="all 0.2s"
+                >
+                    <Link href="/odontologia">
+                        Odontologia
+                    </Link>
+                </Text>
+                <Text
+                    asChild
+                    cursor="pointer"
+                    _hover={{ color: "blue.900", transform: "scale(1.05)" }}
+                    transition="all 0.2s"
+                >
+                    <Link href="/veterinaria">
+                        Veterinária
                     </Link>
                 </Text>
             </HStack>

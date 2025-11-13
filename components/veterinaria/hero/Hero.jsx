@@ -80,7 +80,7 @@ export function HeroVeterinaria() {
 
                         <List.Root ps="5">
                             <List.Item>
-                                Segunda à Quinta: 08:00 às 18:00
+                                Segunda a Quinta: 08:00 às 18:00
                             </List.Item>
                             <List.Item>
                                 Sexta: 08:00 às 17:00

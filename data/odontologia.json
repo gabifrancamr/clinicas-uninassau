@@ -1,17 +1,20 @@
 {
     "dental_services": [
         {
-            "category": "Clínica Geral e Atendimento Básico",
-            "description": "Serviços essenciais, triagem e procedimentos de rotina.",
+            "category": "Clínica Geral",
+            "description": "Serviços essenciais, triagem e procedimentos de rotina",
             "items": [
                 {
                     "name": "Consulta Odontológica (Triagem)",
                     "price": 15
                 },
                 {
-                    "name": "Atendimento Clínico Básico",
-                    "price": 25,
-                    "note": "Profilaxia, Raspagem, Urgência, Endodontia, Restauração, Exodontia"
+                    "name": "Profilaxia e Raspagem",
+                    "price": 25
+                },
+                {
+                    "name": "Atendimento de Urgência",
+                    "price": 25
                 },
                 {
                     "name": "Restauração",
@@ -33,8 +36,8 @@
             ]
         },
         {
-            "category": "Cirurgia",
-            "description": "Procedimentos cirúrgicos diversos.",
+            "category": "Cirurgia Oral",
+            "description": "Procedimentos cirúrgicos diversos",
             "items": [
                 {
                     "name": "Aumento de Coroa Clínica",
@@ -57,16 +60,17 @@
             ]
         },
         {
-            "category": "Prótese Fixa e Restaurações",
-            "description": "Próteses permanentes e semipermanentes.",
+            "category": "Prótese Fixa",
+            "description": "Próteses permanentes e restaurações fixas",
             "items": [
                 {
                     "name": "Cimentação de Pino",
                     "price": 25
                 },
                 {
-                    "name": "Provisório (Dente de Estoque)",
-                    "price": 150
+                    "name": "Provisório",
+                    "price": 150,
+                    "note": "Dente de Estoque"
                 },
                 {
                     "name": "Coroa Cerômero",
@@ -84,8 +88,8 @@
             ]
         },
         {
-            "category": "Estética e Placas",
-            "description": "Clareamento e dispositivos de proteção.",
+            "category": "Estética Dental",
+            "description": "Procedimentos estéticos e clareamento",
             "items": [
                 {
                     "name": "Faceta de Resina Composta",
@@ -101,17 +105,17 @@
                     "name": "Placa de Clareamento Caseiro",
                     "price": 60,
                     "note": "Por arcada"
-                },
-                {
-                    "name": "Placa Oclusal (Bruxismo)",
-                    "price": 300
                 }
             ]
         },
         {
-            "category": "Prótese Removível e Moldagens",
-            "description": "Próteses totais, parciais e materiais de moldagem.",
+            "category": "Prótese Removível",
+            "description": "Próteses totais, parciais e dispositivos",
             "items": [
+                {
+                    "name": "Placa Oclusal (Bruxismo)",
+                    "price": 300
+                },
                 {
                     "name": "Moldagem com Alginato e Gesso",
                     "price": 40

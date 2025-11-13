@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { Box, Button, Flex, SimpleGrid, Text } from "@chakra-ui/react";
 import Link from "next/link";
@@ -14,13 +14,11 @@ export function Footer() {
       borderTop="1px solid black"
       py="1rem"
       className="text"
-      initial={{ opacity: 0, y: 20 }}           // movimento menor
+      initial={{ opacity: 0, y: 20 }} // movimento menor
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
-      <Text textAlign="center">
-        © 2025 Clínica Escola UNINASSAU.
-      </Text>
+      <Text textAlign="center">© 2025 Clínica Escola UNINASSAU.</Text>
 
       <MotionFlex
         justifyContent="center"
@@ -30,8 +28,22 @@ export function Footer() {
         transition={{ duration: 0.6, delay: 0.1 }}
       >
         {/* MOBILE */}
-        <SimpleGrid display={{ base: "grid", md: "none" }} columns={{base: 1, sm: 2}} fontSize="sm" fontWeight="bold" gap={4} color="blue.100">
-          <Button bgColor="blue.800" color={"blue.50"} size={"lg"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}>
+        <SimpleGrid
+          display={{ base: "grid", md: "none" }}
+          columns={{ base: 1, sm: 2 }}
+          fontSize="sm"
+          fontWeight="bold"
+          gap={4}
+          color="blue.100"
+        >
+          <Button
+            bgColor="blue.800"
+            color={"blue.50"}
+            size={"lg"}
+            gap={2}
+            alignItems="center"
+            _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}
+          >
             <RiInstagramFill />
             <Text
               cursor="pointer"
@@ -39,13 +51,22 @@ export function Footer() {
               transition="all 0.2s"
               asChild
             >
-              <Link href="https://www.instagram.com/uninassau.teresina/">
+              <Link
+                href="https://www.instagram.com/uninassau.teresina/"
+                target="_blank"
+              >
                 @uninassauteresina
               </Link>
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" color={"blue.50"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}>
+          <Button
+            bgColor="blue.800"
+            color={"blue.50"}
+            gap={2}
+            alignItems="center"
+            _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}
+          >
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
@@ -62,7 +83,13 @@ export function Footer() {
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" color={"blue.50"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}>
+          <Button
+            bgColor="blue.800"
+            color={"blue.50"}
+            gap={2}
+            alignItems="center"
+            _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}
+          >
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
@@ -79,7 +106,13 @@ export function Footer() {
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" color={"blue.50"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}>
+          <Button
+            bgColor="blue.800"
+            color={"blue.50"}
+            gap={2}
+            alignItems="center"
+            _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}
+          >
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
@@ -99,7 +132,13 @@ export function Footer() {
 
         {/* DESKTOP */}
         <Flex display={{ base: "none", md: "flex" }} gap="6" fontWeight="bold">
-          <Button bgColor="blue.800" color={"blue.50"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}>
+          <Button
+            bgColor="blue.800"
+            color={"blue.50"}
+            gap={2}
+            alignItems="center"
+            _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}
+          >
             <RiInstagramFill />
             <Text
               cursor="pointer"
@@ -107,13 +146,22 @@ export function Footer() {
               transition="all 0.2s"
               asChild
             >
-              <Link href="https://www.instagram.com/uninassau.teresina/">
+              <Link 
+                href="https://www.instagram.com/uninassau.teresina/"
+                target="_blank"
+              >
                 @uninassauteresina
               </Link>
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" color={"blue.50"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}>
+          <Button
+            bgColor="blue.800"
+            color={"blue.50"}
+            gap={2}
+            alignItems="center"
+            _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}
+          >
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
@@ -130,7 +178,13 @@ export function Footer() {
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" color={"blue.50"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}>
+          <Button
+            bgColor="blue.800"
+            color={"blue.50"}
+            gap={2}
+            alignItems="center"
+            _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}
+          >
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
@@ -147,7 +201,13 @@ export function Footer() {
             </Text>
           </Button>
 
-          <Button bgColor="blue.800" color={"blue.50"} gap={2} alignItems="center" _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}>
+          <Button
+            bgColor="blue.800"
+            color={"blue.50"}
+            gap={2}
+            alignItems="center"
+            _hover={{ transform: "scale(1.05)", bgColor: "blue.900" }}
+          >
             <RiWhatsappFill color="green" />
             <Text
               cursor="pointer"
